@@ -1,0 +1,49 @@
+footer{
+  background: linear-gradient(220.94deg, $primary-normal 14.43%, $primary-dark 58.28%);
+
+  h4{
+    color: $secondary-normal;
+    font-weight: 300;
+  }
+
+  p{
+    color: $white-normal;
+  }
+
+  .logo-footer{
+    max-width: 96px;
+  }
+}
+
+.list{
+  list-style: none;
+
+  li{
+    margin-bottom: 12px;
+  }
+
+  a{
+    color: $white-dark;
+  }
+}
+
+.bt{
+  border-top: 1px solid $secondary-light;
+}
+
+.mobile{
+  @include responsive(s){
+    flex-direction:  row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+.menu-footer{
+  margin-left: 72px;
+
+  @include responsive(s){
+    margin-left: 0;
+    margin-bottom: 32px;
+  }
+}
