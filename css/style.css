@@ -1250,8 +1250,8 @@ header {
 }
 
 .dropshadow {
-  -webkit-filter: drop-shadow(0 16px 24px rgba(247, 147, 65, 0.25));
-          filter: drop-shadow(0 16px 24px rgba(247, 147, 65, 0.25));
+  -webkit-filter: drop-shadow(0 16px 24px rgba(0, 13, 177, 0.25));
+          filter: drop-shadow(0 16px 24px rgba(0, 13, 177, 0.25));
 }
 
 .bg-icon-mobile::after {
@@ -1260,8 +1260,8 @@ header {
   cursor: pointer;
   -webkit-transition: .5s ease;
   transition: .5s ease;
-  -webkit-filter: drop-shadow(0 16px 24px rgba(247, 147, 65, 0.25));
-          filter: drop-shadow(0 16px 24px rgba(247, 147, 65, 0.25));
+  -webkit-filter: drop-shadow(0 16px 24px rgba(0, 13, 177, 0.25));
+          filter: drop-shadow(0 16px 24px rgba(0, 13, 177, 0.25));
 }
 
 .bg-icon-mobile:hover::after {
@@ -1275,8 +1275,8 @@ header {
   cursor: pointer;
   -webkit-transition: .5s ease;
   transition: .5s ease;
-  -webkit-filter: drop-shadow(0 16px 24px rgba(247, 147, 65, 0.25));
-          filter: drop-shadow(0 16px 24px rgba(247, 147, 65, 0.25));
+  -webkit-filter: drop-shadow(0 16px 24px rgba(0, 13, 177, 0.25));
+          filter: drop-shadow(0 16px 24px rgba(0, 13, 177, 0.25));
 }
 
 .bg-icon-card:hover::after {
@@ -1290,8 +1290,8 @@ header {
   cursor: pointer;
   -webkit-transition: .5s ease;
   transition: .5s ease;
-  -webkit-filter: drop-shadow(0 16px 24px rgba(247, 147, 65, 0.25));
-          filter: drop-shadow(0 16px 24px rgba(247, 147, 65, 0.25));
+  -webkit-filter: drop-shadow(0 16px 24px rgba(0, 13, 177, 0.25));
+          filter: drop-shadow(0 16px 24px rgba(0, 13, 177, 0.25));
 }
 
 .bg-icon-family:hover::after {
@@ -1305,8 +1305,8 @@ header {
   cursor: pointer;
   -webkit-transition: .5s ease;
   transition: .5s ease;
-  -webkit-filter: drop-shadow(0 16px 24px rgba(247, 147, 65, 0.25));
-          filter: drop-shadow(0 16px 24px rgba(247, 147, 65, 0.25));
+  -webkit-filter: drop-shadow(0 16px 24px rgba(0, 13, 177, 0.25));
+          filter: drop-shadow(0 16px 24px rgba(0, 13, 177, 0.25));
 }
 
 .bg-icon-contactless:hover::after {
@@ -1339,8 +1339,8 @@ header {
   cursor: pointer;
   -webkit-transition: .5s ease;
   transition: .5s ease;
-  -webkit-filter: drop-shadow(0 16px 24px rgba(247, 147, 65, 0.25));
-          filter: drop-shadow(0 16px 24px rgba(247, 147, 65, 0.25));
+  -webkit-filter: drop-shadow(0 16px 24px rgba(0, 13, 177, 0.25));
+          filter: drop-shadow(0 16px 24px rgba(0, 13, 177, 0.25));
 }
 
 .bg-icon-time:hover::after {
@@ -1354,8 +1354,8 @@ header {
   cursor: pointer;
   -webkit-transition: .5s ease;
   transition: .5s ease;
-  -webkit-filter: drop-shadow(0 16px 24px rgba(247, 147, 65, 0.25));
-          filter: drop-shadow(0 16px 24px rgba(247, 147, 65, 0.25));
+  -webkit-filter: drop-shadow(0 16px 24px rgba(0, 13, 177, 0.25));
+          filter: drop-shadow(0 16px 24px rgba(0, 13, 177, 0.25));
 }
 
 .bg-icon-config:hover::after {
@@ -1364,8 +1364,8 @@ header {
 }
 
 .icon {
-  -webkit-filter: drop-shadow(0 16px 24px rgba(247, 147, 65, 0.25));
-          filter: drop-shadow(0 16px 24px rgba(247, 147, 65, 0.25));
+  -webkit-filter: drop-shadow(0 16px 24px rgba(0, 13, 177, 0.25));
+          filter: drop-shadow(0 16px 24px rgba(0, 13, 177, 0.25));
   -webkit-transition: .5s ease;
   transition: .5s ease;
   cursor: pointer;
