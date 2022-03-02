@@ -10,6 +10,12 @@
     transition: .5s ease;
     filter: drop-shadow(0 16px 24px rgba(0, 13, 177, 0.25));
   }
+  
+  @include responsive(s){
+    &::after{
+      filter: none;
+    }
+  }
 
   &:hover{
     &::after{
@@ -25,6 +31,12 @@
     cursor: pointer;
     transition: .5s ease;
     filter: drop-shadow(0 16px 24px rgba(0, 13, 177, 0.25));
+  }
+
+  @include responsive(s){
+    &::after{
+      filter: none;
+    }
   }
 
   &:hover{
@@ -43,6 +55,12 @@
     filter: drop-shadow(0 16px 24px rgba(0, 13, 177, 0.25));
   }
 
+  @include responsive(s){
+    &::after{
+      filter: none;
+    }
+  }
+
   &:hover{
     &::after{
       transform: scale(1.05);
@@ -57,6 +75,12 @@
     cursor: pointer;
     transition: .5s ease;
     filter: drop-shadow(0 16px 24px rgba(0, 13, 177, 0.25));
+  }
+
+  @include responsive(s){
+    &::after{
+      filter: none;
+    }
   }
 
   &:hover{
@@ -79,6 +103,12 @@
     filter: drop-shadow(0 16px 24px rgba(247, 147, 65, 0.25));
   }
 
+  @include responsive(s){
+    &::after{
+      filter: none;
+    }
+  }
+
   &:hover{
     &::after{
       transform: scale(1.05);
@@ -93,6 +123,12 @@
     cursor: pointer;
     transition: .5s ease;
     filter: drop-shadow(0 16px 24px rgba(0, 13, 177, 0.25));
+  }
+
+  @include responsive(s){
+    &::after{
+      filter: none;
+    }
   }
 
   &:hover{
@@ -111,6 +147,12 @@
     filter: drop-shadow(0 16px 24px rgba(0, 13, 177, 0.25));
   }
 
+  @include responsive(s){
+    &::after{
+      filter: none;
+    }
+  }
+
   &:hover{
     &::after{
       transform: scale(1.05);
@@ -122,6 +164,10 @@
   filter: drop-shadow(0 16px 24px rgba(0, 13, 177, 0.25));
   transition: .5s ease;
   cursor: pointer;
+
+  @include responsive(s){
+    filter: none;
+  }
 
   &:hover{
     transform: scale(1.05);

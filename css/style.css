@@ -805,8 +805,8 @@ header {
 
 .active-header {
   background-color: #F7F2FA;
-  -webkit-box-shadow: 0 51px 80px rgba(169, 80, 196, 0.08), 0 15.375px 24.1177px rgba(169, 80, 196, 0.0521271), 0 6.38599px 10.0172px rgba(169, 80, 196, 0.04), 0 2.30969px 3.62304px rgba(169, 80, 196, 0.0278729);
-          box-shadow: 0 51px 80px rgba(169, 80, 196, 0.08), 0 15.375px 24.1177px rgba(169, 80, 196, 0.0521271), 0 6.38599px 10.0172px rgba(169, 80, 196, 0.04), 0 2.30969px 3.62304px rgba(169, 80, 196, 0.0278729);
+  -webkit-box-shadow: 0 51px 80px rgba(0, 13, 177, 0.08), 0 15.375px 24.1177px rgba(0, 13, 177, 0.0521271), 0 6.38599px 10.0172px rgba(0, 13, 177, 0.04), 0 2.30969px 3.62304px rgba(0, 13, 177, 0.0278729);
+          box-shadow: 0 51px 80px rgba(0, 13, 177, 0.08), 0 15.375px 24.1177px rgba(0, 13, 177, 0.0521271), 0 6.38599px 10.0172px rgba(0, 13, 177, 0.04), 0 2.30969px 3.62304px rgba(0, 13, 177, 0.0278729);
 }
 
 .navbar-desktop {
@@ -922,8 +922,8 @@ header {
 .dropdown-menu {
   background-color: #FEFBFF;
   border-radius: 16px;
-  -webkit-box-shadow: 0 51px 80px rgba(169, 80, 196, 0.08), 0 15.375px 24.1177px rgba(169, 80, 196, 0.0521271), 0 6.38599px 10.0172px rgba(169, 80, 196, 0.04), 0 2.30969px 3.62304px rgba(169, 80, 196, 0.0278729);
-          box-shadow: 0 51px 80px rgba(169, 80, 196, 0.08), 0 15.375px 24.1177px rgba(169, 80, 196, 0.0521271), 0 6.38599px 10.0172px rgba(169, 80, 196, 0.04), 0 2.30969px 3.62304px rgba(169, 80, 196, 0.0278729);
+  -webkit-box-shadow: 0 51px 80px rgba(0, 13, 177, 0.08), 0 15.375px 24.1177px rgba(0, 13, 177, 0.0521271), 0 6.38599px 10.0172px rgba(0, 13, 177, 0.04), 0 2.30969px 3.62304px rgba(0, 13, 177, 0.0278729);
+          box-shadow: 0 51px 80px rgba(0, 13, 177, 0.08), 0 15.375px 24.1177px rgba(0, 13, 177, 0.0521271), 0 6.38599px 10.0172px rgba(0, 13, 177, 0.04), 0 2.30969px 3.62304px rgba(0, 13, 177, 0.0278729);
   list-style: none;
   position: absolute;
   top: 48px;
@@ -1264,6 +1264,13 @@ header {
           filter: drop-shadow(0 16px 24px rgba(0, 13, 177, 0.25));
 }
 
+@media screen and (max-width: 960px) {
+  .bg-icon-mobile::after {
+    -webkit-filter: none;
+            filter: none;
+  }
+}
+
 .bg-icon-mobile:hover::after {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
@@ -1277,6 +1284,13 @@ header {
   transition: .5s ease;
   -webkit-filter: drop-shadow(0 16px 24px rgba(0, 13, 177, 0.25));
           filter: drop-shadow(0 16px 24px rgba(0, 13, 177, 0.25));
+}
+
+@media screen and (max-width: 960px) {
+  .bg-icon-card::after {
+    -webkit-filter: none;
+            filter: none;
+  }
 }
 
 .bg-icon-card:hover::after {
@@ -1294,6 +1308,13 @@ header {
           filter: drop-shadow(0 16px 24px rgba(0, 13, 177, 0.25));
 }
 
+@media screen and (max-width: 960px) {
+  .bg-icon-family::after {
+    -webkit-filter: none;
+            filter: none;
+  }
+}
+
 .bg-icon-family:hover::after {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
@@ -1307,6 +1328,13 @@ header {
   transition: .5s ease;
   -webkit-filter: drop-shadow(0 16px 24px rgba(0, 13, 177, 0.25));
           filter: drop-shadow(0 16px 24px rgba(0, 13, 177, 0.25));
+}
+
+@media screen and (max-width: 960px) {
+  .bg-icon-contactless::after {
+    -webkit-filter: none;
+            filter: none;
+  }
 }
 
 .bg-icon-contactless:hover::after {
@@ -1328,6 +1356,13 @@ header {
           filter: drop-shadow(0 16px 24px rgba(247, 147, 65, 0.25));
 }
 
+@media screen and (max-width: 960px) {
+  .bg-icon-check::after {
+    -webkit-filter: none;
+            filter: none;
+  }
+}
+
 .bg-icon-check:hover::after {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
@@ -1341,6 +1376,13 @@ header {
   transition: .5s ease;
   -webkit-filter: drop-shadow(0 16px 24px rgba(0, 13, 177, 0.25));
           filter: drop-shadow(0 16px 24px rgba(0, 13, 177, 0.25));
+}
+
+@media screen and (max-width: 960px) {
+  .bg-icon-time::after {
+    -webkit-filter: none;
+            filter: none;
+  }
 }
 
 .bg-icon-time:hover::after {
@@ -1358,6 +1400,13 @@ header {
           filter: drop-shadow(0 16px 24px rgba(0, 13, 177, 0.25));
 }
 
+@media screen and (max-width: 960px) {
+  .bg-icon-config::after {
+    -webkit-filter: none;
+            filter: none;
+  }
+}
+
 .bg-icon-config:hover::after {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
@@ -1369,6 +1418,13 @@ header {
   -webkit-transition: .5s ease;
   transition: .5s ease;
   cursor: pointer;
+}
+
+@media screen and (max-width: 960px) {
+  .icon {
+    -webkit-filter: none;
+            filter: none;
+  }
 }
 
 .icon:hover {
