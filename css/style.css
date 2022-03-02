@@ -1968,38 +1968,4 @@ footer .logo-footer {
     fill-opacity: 0.4;
   }
 }
-
-.fignu4-letter-u, .fignu4-letter-n {
-  -webkit-animation: fignu4-letter 4s ease infinite alternate;
-          animation: fignu4-letter 4s ease infinite alternate;
-  stroke-width: 4;
-  stroke-dasharray: 0 400;
-  stroke-opacity: 1;
-}
-
-@-webkit-keyframes fignu4-letter {
-  to {
-    stroke-width: 4;
-    stroke-dasharray: 0 400;
-    stroke-opacity: 1;
-  }
-  60%, 100% {
-    stroke-width: 4;
-    stroke-dasharray: 400 0;
-    stroke-opacity: 1;
-  }
-}
-
-@keyframes fignu4-letter {
-  to {
-    stroke-width: 4;
-    stroke-dasharray: 0 400;
-    stroke-opacity: 1;
-  }
-  60%, 100% {
-    stroke-width: 4;
-    stroke-dasharray: 400 0;
-    stroke-opacity: 1;
-  }
-}
 /*# sourceMappingURL=style.css.map */
